@@ -1,5 +1,8 @@
 # Vichan-web3-tokengate
 This repo provides the library files needed for token gating posting on any vichan install. 
+  
+
+![verifyPage](readMEFiles/verifyPage.png)     I just fineshed the code. I will upload better instructions later 
 
 
 ## How to use this?
@@ -40,7 +43,7 @@ To enforce posting you need to make some changes to the post.php file inside you
 You can debug by uising the testing.php file. Run it cli with 
 php -S localhost:8000
 
-then you can access 
+then you can access http://localhost:8000/web3_verify.php in a webrowser to test out a verify page
 
 
 
